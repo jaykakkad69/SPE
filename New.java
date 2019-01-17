@@ -10,16 +10,19 @@ class New{
 			a = scan.nextInt();
 			b = scan.nextInt();
 			System.out.println("1. Add");
-			System.out.println("2. Exit");
+			System.out.println("3. Mul");
+			System.out.println("4. Exit");
 			choice = scan.next().charAt(0);
 			switch(choice){
 				case '1': System.out.println(a+b);
 					  break;
-				case '2': System.exit(0);
+				case '3' : System.out.println(a*b);
+					   break;
+				case '4': System.exit(0);
 					  break;
 				default : System.out.println("Invalid choice");
 					  break;
 			}
-		}while(choice != 2);
+		}while(choice != 4);
 	}
 }
