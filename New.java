@@ -28,3 +28,4 @@ class New{
 			}
 		}while(choice != 4);
 	}
+}
